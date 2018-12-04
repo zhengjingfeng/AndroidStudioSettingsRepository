@@ -1,0 +1,186 @@
+<templateSet group="user">
+  <template name="toast" value="android.widget.Toast.makeText(getApplicationContext(),&quot;$CONTENT$&quot;,android.widget.Toast.LENGTH_SHORT).show();" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="CONTENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="syso" value="System.out.println(&quot;$END$&quot;);" description="syso" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="fd" value="findViewById(R.id.$ID$);" description="fd" toReformat="true" toShortenFQNames="true">
+    <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="iid" value="android:id=&quot;@+id/$ID$&quot;" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+      <option name="XML_TEXT" value="false" />
+      <option name="XSL_TEXT" value="false" />
+    </context>
+  </template>
+  <template name="fore" value="for ($iterable_type$ $iterable_element$ : $iterable$) {&#10;&#9;$cursor$&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="iterable_type" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="iterable_element" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="iterable" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="cursor" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="_width" value="android:layout_width=&quot;match_parent&quot;&#10;android:layout_height=&quot;wrap_content$HEIGHT$&quot;" description="_width" toReformat="true" toShortenFQNames="true">
+    <variable name="HEIGHT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+      <option name="XML_TEXT" value="false" />
+      <option name="XSL_TEXT" value="false" />
+    </context>
+  </template>
+  <template name="sw" value="switch ($key$) {&#10;            case $value$:&#10;&#10;                break;&#10;&#10;            default:&#10;                break;&#10;        }" description="sw" toReformat="true" toShortenFQNames="true">
+    <variable name="key" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="for" value="for (int i = 0; i &lt; $length$; i++) {&#10;&#10;        }" description="for" toReformat="true" toShortenFQNames="true">
+    <variable name="length" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="sysof" value="java.lang.System.out.println(&quot;--------------$note$--------------&quot;);" description="sysof" toReformat="true" toShortenFQNames="true">
+    <variable name="note" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="mm" value="mipmap" description="mm" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="COMPLETION" value="false" />
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_STATEMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+    </context>
+  </template>
+  <template name="internet" value="&lt;uses-permission android:name=&quot;android.permission.INTERNET&quot;/&gt;" description="internet" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="XML_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="@mm" value="@mipmap/" description="@mm" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+      <option name="XML_TEXT" value="false" />
+      <option name="XSL_TEXT" value="false" />
+    </context>
+  </template>
+  <template name="coni" value="public static final int $key$ = $value$;" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="key" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="conf" value="public static final java.lang.String $key$ = &quot;$value$&quot;;" description="conf" toReformat="true" toShortenFQNames="true">
+    <variable name="key" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="doc" value="/**&#10; * 类    名:  $CLASSNAME$&#10; * 创 建 者:  伍碧林&#10; * 创建时间:  $DATE$ $TIME$&#10; * 描    述： ${TODO}&#10; */" description="doc" toReformat="true" toShortenFQNames="true">
+    <variable name="CLASSNAME" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <variable name="DATE" expression="date()" defaultValue="" alwaysStopAt="true" />
+    <variable name="TIME" expression="time()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="note1" value="/**$note$*/" description="note1" toReformat="true" toShortenFQNames="true">
+    <variable name="note" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="note2" value="/*--------------- $note$ ---------------*/" description="note2" toReformat="true" toShortenFQNames="true">
+    <variable name="note" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="note3" value="/*=============== $note$ ===============*/" description="note3" toReformat="true" toShortenFQNames="true">
+    <variable name="note" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="note4" value="/*############### $note$ ###############*/" description="note4" toReformat="true" toShortenFQNames="true">
+    <variable name="note" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="note5" value="/*#######################################*/" description="note5" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="init_1" value="init();&#10;        initView();&#10;        initData();&#10;        initListener();" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="init_2" value="/**&#10;     * 初始化&#10;     */&#10;    public void init(){&#10;&#10;    }&#10;&#10;    /**&#10;     * 初始化view&#10;     */&#10;    public void initView(){&#10;&#10;    }&#10;&#10;    /**&#10;     * 初始化数据&#10;     */&#10;    public void initData(){&#10;&#10;    }&#10;&#10;    /**&#10;     * 初始化监听&#10;     */&#10;    public void initListener(){&#10;&#10;    }" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="_tag" value="public static final java.lang.String TAG = $CLASSNAME$.class.getSimpleName();" description="_tag" toReformat="true" toShortenFQNames="true">
+    <variable name="CLASSNAME" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="_addTextView" value="android.widget.TextView tv = new android.widget.TextView(mContext);&#10;        tv.setGravity(android.view.Gravity.CENTER);&#10;        tv.setTextColor(android.graphics.Color.BLUE);&#10;        tv.setText(this.getClass().getSimpleName());" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="_baseFragment" value="public android.content.Context mContext;&#10;    public java.lang.Object  mArgs;&#10;&#10;    @java.lang.Override&#10;    public void onCreate(@android.support.annotation.Nullable android.os.Bundle savedInstanceState) {&#10;        super.onCreate(savedInstanceState);&#10;        //初始化上下文&#10;        mContext = getActivity();&#10;&#10;        //接收参数&#10;        android.os.Bundle argsBundle = getArguments();&#10;        if (argsBundle != null) {&#10;            mArgs = argsBundle.get(&quot;args&quot;);&#10;        }&#10;        //其他初始化操作&#10;        init();&#10;    }&#10;&#10;    @android.support.annotation.Nullable&#10;    @java.lang.Override&#10;    public android.view.View onCreateView(android.view.LayoutInflater inflater, @android.support.annotation.Nullable android.view.ViewGroup container, @android.support.annotation.Nullable android.os.Bundle savedInstanceState) {&#10;        return initView();&#10;    }&#10;&#10;    @java.lang.Override&#10;    public void onViewCreated(android.view.View view, @android.support.annotation.Nullable android.os.Bundle savedInstanceState) {&#10;        super.onViewCreated(view, savedInstanceState);&#10;        butterknife.ButterKnife.bind(this, view);&#10;    }&#10;&#10;    @java.lang.Override&#10;    public void onActivityCreated(@android.support.annotation.Nullable android.os.Bundle savedInstanceState) {&#10;        initData();&#10;        initListener();&#10;        super.onActivityCreated(savedInstanceState);&#10;    }&#10;&#10;    /**&#10;     * @des 初始化&#10;     * @des 在BaseFragment中不知道如何初始化, 交给子类&#10;     * @des 子类选择性实现, 空方法即可&#10;     * @called onCreate()方法调用的时候触发&#10;     */&#10;    public void init() {&#10;&#10;    }&#10;&#10;    /**&#10;     * @des 初始化view&#10;     * @des 在BaseFragment中不知道如何初始化vie, 交给子类&#10;     * @des 子类必须实现, 定义此方法为抽象方法即可&#10;     * @called onCreateView()方法被触发的时候调用&#10;     */&#10;    public abstract android.view.View initView();&#10;&#10;    /**&#10;     * 初始化数据&#10;     */&#10;    public void initData() {&#10;&#10;    }&#10;&#10;    /**&#10;     * 初始化监听&#10;     */&#10;    public void initListener() {&#10;&#10;    }" description="基类Fragment" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="_enum" value="public enum TABINFO {&#10;&#10;        TABINFO(com.example.zjf.myoschina.R.string.main_tab_name_news, com.example.zjf.myoschina.R.drawable.tab_icon_new, com.example.zjf.myoschina.fragment.NewsFragment.class),&#10;        TABINFO(com.example.zjf.myoschina.R.string.main_tab_name_tweet, com.example.zjf.myoschina.R.drawable.tab_icon_tweet, com.example.zjf.myoschina.fragment.TweetFragment.class),&#10;        TABINFO(com.example.zjf.myoschina.R.string.main_tab_name_quick, com.example.zjf.myoschina.R.drawable.tab_icon_tweet, null),&#10;        TABINFO(com.example.zjf.myoschina.R.string.main_tab_name_explore, com.example.zjf.myoschina.R.drawable.tab_icon_explore, com.example.zjf.myoschina.fragment.ExploreFragment.class),&#10;        TABINFO(com.example.zjf.myoschina.R.string.main_tab_name_my, com.example.zjf.myoschina.R.drawable.tab_icon_me, com.example.zjf.myoschina.fragment.MeFragment.class);&#10;&#10;        public int titleId;&#10;        public int topResId;&#10;        public java.lang.Class clz;&#10;&#10;        TABINFO(int titleId, int topResId, java.lang.Class clz) {&#10;            this.titleId = titleId;&#10;            this.topResId = topResId;&#10;            this.clz = clz;&#10;        }" description="枚举样式一" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="_fanshe" value="java.lang.reflect.Type type = ((java.lang.reflect.ParameterizedType) this.getClass().getGenericSuperclass()).getActualTypeArguments()[0];&#10;        return com.example.zjf.myoschina.util.XmlUtils.toBean((java.lang.Class&lt;RESTYPE&gt;) type, resXml.getBytes());" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="_singleInstance" value="public class CustomManager&#10;    {&#10;        private static com.example.richtextviewdemo.MainActivity.CustomManager sInstance;&#10;        private android.content.Context mContext;&#10;&#10;        private CustomManager(android.content.Context context)&#10;        {&#10;            this.mContext = context;&#10;        }&#10;&#10;        public static synchronized com.example.richtextviewdemo.MainActivity.CustomManager getInstance(android.content.Context context)&#10;        {&#10;            if (sInstance == null)&#10;            {&#10;                sInstance = new com.example.richtextviewdemo.MainActivity.CustomManager(context);&#10;            }&#10;            return sInstance;&#10;        }&#10;&#10;        //some methods   &#10;        private void someOtherMethodNeedContext()&#10;        {&#10;&#10;        }&#10;    }" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+</templateSet>
