@@ -1,0 +1,15 @@
+<application>
+  <component name="SexyEditor">
+    <option name="configs">
+      <list>
+        <BackgroundConfiguration>
+          <option name="fileNames">
+            <array />
+          </option>
+          <option name="opacity" value="0.5" />
+          <option name="position" value="3" />
+        </BackgroundConfiguration>
+      </list>
+    </option>
+  </component>
+</application>
