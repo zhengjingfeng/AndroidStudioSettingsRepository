@@ -102,7 +102,7 @@
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
-  <template name="doc" value="/**&#10; * 类    名:  $CLASSNAME$&#10; * 创 建 者:  伍碧林&#10; * 创建时间:  $DATE$ $TIME$&#10; * 描    述： ${TODO}&#10; */" description="doc" toReformat="true" toShortenFQNames="true">
+  <template name="doc" value="/**&#10; * 类    名:  $CLASSNAME$&#10; * 创 建 者:  郑竟锋&#10; * 创建时间:  $DATE$ $TIME$&#10; * 描    述： &#10; */" description="doc" toReformat="true" toShortenFQNames="true">
     <variable name="CLASSNAME" expression="className()" defaultValue="" alwaysStopAt="true" />
     <variable name="DATE" expression="date()" defaultValue="" alwaysStopAt="true" />
     <variable name="TIME" expression="time()" defaultValue="" alwaysStopAt="true" />
@@ -181,6 +181,22 @@
   <template name="_singleInstance" value="public class CustomManager&#10;    {&#10;        private static com.example.richtextviewdemo.MainActivity.CustomManager sInstance;&#10;        private android.content.Context mContext;&#10;&#10;        private CustomManager(android.content.Context context)&#10;        {&#10;            this.mContext = context;&#10;        }&#10;&#10;        public static synchronized com.example.richtextviewdemo.MainActivity.CustomManager getInstance(android.content.Context context)&#10;        {&#10;            if (sInstance == null)&#10;            {&#10;                sInstance = new com.example.richtextviewdemo.MainActivity.CustomManager(context);&#10;            }&#10;            return sInstance;&#10;        }&#10;&#10;        //some methods   &#10;        private void someOtherMethodNeedContext()&#10;        {&#10;&#10;        }&#10;    }" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="ts" value="android:textSize=&quot;$size$&quot;" toReformat="false" toShortenFQNames="true">
+    <variable name="size" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+      <option name="XML_TEXT" value="false" />
+      <option name="XSL_TEXT" value="false" />
+    </context>
+  </template>
+  <template name="tc" value="android:textColor=&quot;@color/$color$&quot;" toReformat="false" toShortenFQNames="true">
+    <variable name="color" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+      <option name="XML_TEXT" value="false" />
+      <option name="XSL_TEXT" value="false" />
     </context>
   </template>
 </templateSet>
