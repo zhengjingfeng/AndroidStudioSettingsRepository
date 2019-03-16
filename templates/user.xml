@@ -183,7 +183,7 @@
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
-  <template name="ts" value="android:textSize=&quot;$size$&quot;" toReformat="false" toShortenFQNames="true">
+  <template name="ts" value="android:textSize=&quot;$size$&quot;" description="" toReformat="false" toShortenFQNames="true">
     <variable name="size" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="XML" value="true" />
@@ -191,7 +191,7 @@
       <option name="XSL_TEXT" value="false" />
     </context>
   </template>
-  <template name="tc" value="android:textColor=&quot;@color/$color$&quot;" toReformat="false" toShortenFQNames="true">
+  <template name="tc" value="android:textColor=&quot;@color/$color$&quot;" description="" toReformat="false" toShortenFQNames="true">
     <variable name="color" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="XML" value="true" />
