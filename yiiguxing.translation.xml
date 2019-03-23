@@ -1,11 +1,15 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Array List" />
+      <item value="Main Activity" />
+      <item value="protected" />
       <item value="on Create" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="ENGLISH" value="1" />
+        <entry key="CHINESE" value="5" />
+        <entry key="ENGLISH" value="7" />
       </map>
     </option>
   </component>
