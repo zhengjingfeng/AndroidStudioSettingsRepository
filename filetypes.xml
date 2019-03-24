@@ -1,10 +1,10 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping ext="klib" type="ARCHIVE" />
-      <mapping ext="ogg" type="PLAIN_TEXT" />
-      <mapping ext="ser" type="PLAIN_TEXT" />
       <mapping pattern=".gitignore_global" type="Git file" />
+      <mapping pattern="数据结构也算法" type="PLAIN_TEXT" />
+      <mapping ext="ser" type="PLAIN_TEXT" />
+      <mapping ext="ogg" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
