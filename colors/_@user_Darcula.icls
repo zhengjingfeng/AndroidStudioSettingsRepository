@@ -4,10 +4,10 @@
     <property name="created">2017-11-07T01:44:03</property>
     <property name="ide">AndroidStudio</property>
     <property name="ideVersion">3.0.0.18</property>
-    <property name="modified">2019-03-25T09:11:44</property>
+    <property name="modified">2019-03-25T09:23:58</property>
     <property name="originalScheme">Darcula</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.0" />
-  <option name="EDITOR_FONT_SIZE" value="16" />
-  <option name="EDITOR_FONT_NAME" value="Fira Code" />
+  <option name="EDITOR_FONT_SIZE" value="18" />
+  <option name="EDITOR_FONT_NAME" value="Consolas" />
 </scheme>
