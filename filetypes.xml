@@ -1,11 +1,12 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping pattern=".gitignore_global" type="Git file" />
       <mapping pattern="111" type="Groovy" />
       <mapping pattern=".ninja_deps" type="PLAIN_TEXT" />
       <mapping pattern="内存与磁盘(file)" type="PLAIN_TEXT" />
+      <mapping ext="keystore" type="PLAIN_TEXT" />
       <mapping ext="db" type="PLAIN_TEXT" />
+      <mapping pattern=".gitignore_global" type="Git file" />
     </extensionMap>
   </component>
 </application>
