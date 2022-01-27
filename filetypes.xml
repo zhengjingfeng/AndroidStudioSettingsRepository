@@ -2,7 +2,6 @@
   <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping pattern="111" type="Groovy" />
-      <mapping ext="main.kts" type="Kotlin" />
       <mapping pattern=".ninja_deps" type="PLAIN_TEXT" />
       <mapping pattern="内存与磁盘(file)" type="PLAIN_TEXT" />
       <mapping ext="keystore" type="PLAIN_TEXT" />
