@@ -5,5 +5,6 @@
     <notification groupId="FindBugs: Plugin Suggestion" displayType="NONE" shouldLog="false" />
     <notification groupId="FindBugs: R-File Filter Suggestion" displayType="NONE" shouldLog="false" />
     <notification groupId="Gradle Notification Group" displayType="NONE" shouldLog="false" />
+    <notification groupId="JDK Location different to JAVA_HOME" displayType="NONE" shouldLog="false" />
   </component>
 </application>
